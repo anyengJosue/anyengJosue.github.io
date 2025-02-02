@@ -1,0 +1,37 @@
+
+
+ $color1 : rgb(236, 231, 231) ;
+
+ @mixin centerChild {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ @font-face {
+   font-family: 'Inter' ;
+   src: url(../../fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+   font-family: 'Merri' ;
+   src: url(../../fonts/Merriweather-Light.ttf);
+}
+
+$font1: inter-bold, sans-serif;
+$font2: merri, serif;
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   max-width: 1300px;
+   background: url(../img/bg.jpg) fixed center/cover;
+   font-family:$font2 ;
+
+}
+ 
+

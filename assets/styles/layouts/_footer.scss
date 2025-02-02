@@ -1,0 +1,221 @@
+
+footer{
+
+    min-height: 60vh;
+    background:rgb(222, 212, 212);
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+  
+
+    form {
+    padding: 20px 20px 20px 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    " name1 adresse"
+    " email1 phone"
+    " message email2"
+    " submit social"
+    ;
+
+    .nm {
+        margin-right: 100px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column; 
+        grid-area: name1;
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        input {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+        }
+    }
+
+    .em1 {
+
+        margin-right: 100px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column; 
+        grid-area: email1; 
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        input {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+        }
+
+
+    }
+
+    .mes {
+
+        margin-right: 100px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column; 
+        grid-area: message; 
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        textarea {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+
+        }
+    }
+
+    .sm {
+        
+        // margin-right: 50px;
+        padding: 5px;
+       align-items: center;
+        grid-area: submit;
+        
+        input{
+            text-transform: uppercase;
+            display: block;
+            margin: 10px 150px;
+            padding: 8px 10px 8px 10px;
+           background-color: transparent; 
+
+        }
+
+
+
+    }
+
+    .ad {
+        margin-right: 100px;
+        margin-left: 50px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column; 
+        grid-area: adresse; 
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        input {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+        }
+    }
+
+    .ph {
+        margin-right: 100px;
+        margin-left: 50px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        grid-area: phone; 
+
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        input {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+        }
+    }
+
+    .em2 {
+        margin-right: 100px;
+        margin-left: 50px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        grid-area: email2; 
+
+        label{
+            text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+
+        }
+
+        input {
+        margin-top: 5px;
+        padding: 10px 10px 10px 0;
+        background-color: transparent;
+        border: 1px solid rgba(98, 80, 80, 0.751)
+        }
+    }
+ 
+    .sc {
+        margin-right: 100px;
+        margin-left: 50px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        grid-area: social; 
+    }
+
+    label {
+        text-transform: uppercase;
+            margin-left: 0;
+            font-weight:100;
+            font-size: 0.8rem;
+    }
+
+    .socio{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        i{
+            color: black;
+        }
+    }
+
+}
+
+}

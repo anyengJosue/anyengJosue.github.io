@@ -1,0 +1,46 @@
+
+nav {
+
+    max-width: 1100px;
+    margin: 0 auto;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.132);
+    height: 10vh;
+    border: 1px solid rgba(255, 255, 255, 0.132);
+    @include centerChild;
+
+   
+
+    ul {
+
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        // align-items: center;
+        width: 75%;
+
+        
+        
+    } 
+
+
+    .ul-gh {
+     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+        
+    }
+
+    .ul-dr {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+
+    }
+
+    }
+
